@@ -1,0 +1,13 @@
+# Local-only material: do not publish credentials, backups or review artifacts.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip
+backups/
+work/
+.openai/
+node_modules/
+.DS_Store
